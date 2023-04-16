@@ -41,8 +41,8 @@ The following options are available for customization:
 
 | Propiedades | Tipo | Comentario |
 | --- | --- | --- |
-| Position (Optional) | "top" | "bottom" | "left" | "right" | Especifica la posición de la información sobre herramientas. El valor predeterminado es "superior". |
-| width (Optional) | number | "auto" | "xs" | "sm" | "lg" | "xl" | Especifica el ancho de la información sobre herramientas. El valor predeterminado es "automático". |
+| Position (Optional) | "top" o "bottom" o "left" o "right" | Especifica la posición de la información sobre herramientas. El valor predeterminado es "superior". |
+| width (Optional) | number o "auto" o "xs" o "sm" o "lg" o "xl" | Especifica el ancho de la información sobre herramientas. El valor predeterminado es "automático". |
 
 ## License
 
