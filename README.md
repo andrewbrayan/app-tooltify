@@ -2,21 +2,23 @@
 
 [![npm version](https://badge.fury.io/js/ngx-tooltify.svg)](https://badge.fury.io/js/ngx-tooltify)
 
-## Instalación
+Angular library for easily creating customized and attractive tooltips. Add additional information to elements on your website or mobile application quickly and easily, without the need for custom code.
 
-Para instalar ngx-tooltify, utiliza el siguiente comando:
+## Installation
+
+To install ngx-tooltify, use the following command:
 
 ```yml
 npm i ngx-tooltify
 ```
 
-## Uso
+## Usage
 
-Utiliza el siguiente código de ejemplo para mostrar el tooltip en tu aplicación:
+Use the following example code to display the tooltip in your application:
 
 ```html
 <ngx-tooltify position="bottom" width="auto">
-  Texto del tooltip
+  Tooltip Text
 </ngx-tooltify>
 ```
 
@@ -39,13 +41,13 @@ export class AppModule { }
 
 ## Options
 
-Las siguientes opciones están disponibles para la personalización:
+The following options are available for customization:
 
 | Propiedades | Tipo | Comentario |
 | --- | --- | --- |
-| Position (Optional) | "top" o "bottom" o "left" o "right" | Especifica la posición de la información sobre herramientas. El valor predeterminado es "superior". |
-| width (Optional) | number o "auto" o "xs" o "sm" o "lg" o "xl" | Especifica el ancho de la información sobre herramientas. El valor predeterminado es "automático". |
+| Position (Optional) | "top" or "bottom" or "left" or "right" | Specifies the position of the tooltip. The default value is "top". |
+| width (Optional) | number or "auto" or "xs" or "sm" or "lg" or "xl" | Specifies the width of the tooltip. The default value is "auto". |
 
 ## License
 
-Esta biblioteca está autorizada bajo la licencia MIT.
+This library is licensed under the MIT license.
