@@ -23,6 +23,8 @@ Utiliza el siguiente código de ejemplo para mostrar el tooltip en tu aplicació
 Importa NgxTooltifyModule en el módulo donde desees utilizar la librería:
 
 ```javascript
+import { NgxTooltifyModule } from 'ngx-tooltify';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,7 +39,7 @@ export class AppModule { }
 
 ## Options
 
-The following options are available for customization:
+Las siguientes opciones están disponibles para la personalización:
 
 | Propiedades | Tipo | Comentario |
 | --- | --- | --- |
@@ -46,4 +48,4 @@ The following options are available for customization:
 
 ## License
 
-This library is licensed under the MIT license.
+Esta biblioteca está autorizada bajo la licencia MIT.
