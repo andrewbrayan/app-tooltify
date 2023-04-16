@@ -1,7 +1,5 @@
 # ngx-tooltify
 
-[![npm version](https://badge.fury.io/js/ngx-tooltify.svg)](https://badge.fury.io/js/ngx-tooltify)
-
 Angular library for easily creating customized and attractive tooltips. Add additional information to elements on your website or mobile application quickly and easily, without the need for custom code.
 
 ## Installation
