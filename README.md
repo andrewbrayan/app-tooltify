@@ -1,27 +1,47 @@
-# AppTooltify
+# ngx-tootify
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.2.
+[![npm version](https://badge.fury.io/js/ngx-tootify.svg)](https://badge.fury.io/js/ngx-tootify)
 
-## Development server
+## Instalación
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Para instalar ngx-tootify, utiliza el siguiente comando:
 
-## Code scaffolding
+```yml
+npm i ngx-tootify
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Uso
 
-## Build
+Utiliza el siguiente código de ejemplo para mostrar el tooltip en tu aplicación:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```html
+<ngx-tooltify position="bottom" width="auto">
+  Texto del tooltip
+</ngx-tooltify>
+```
 
-## Running unit tests
+Importa NgxTooltifyModule en el módulo donde desees utilizar la librería:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```javascript
+@NgModule({
+  declarations: [
+    AppComponent,
+  ],
+  imports: [
+    NgxTooltifyModule
+  ],
+  // ... other imports
+})
+export class AppModule { }
+```
 
-## Running end-to-end tests
+## Options
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+The following options are available for customization:
 
-## Further help
+position: (Optional) Type: "top" | "bottom" | "left" | "right". Specifies the position of the tooltip. Default value is "top".
+width: (Optional) Type: number | "auto" | "xs" | "sm" | "lg" | "xl". Specifies the width of the tooltip. Default value is "auto".
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## License
+
+This library is licensed under the MIT license.
