@@ -1,13 +1,13 @@
-# ngx-tootify
+# ngx-tooltify
 
-[![npm version](https://badge.fury.io/js/ngx-tootify.svg)](https://badge.fury.io/js/ngx-tootify)
+[![npm version](https://badge.fury.io/js/ngx-tooltify.svg)](https://badge.fury.io/js/ngx-tooltify)
 
 ## Instalación
 
-Para instalar ngx-tootify, utiliza el siguiente comando:
+Para instalar ngx-tooltify, utiliza el siguiente comando:
 
 ```yml
-npm i ngx-tootify
+npm i ngx-tooltify
 ```
 
 ## Uso
@@ -39,8 +39,10 @@ export class AppModule { }
 
 The following options are available for customization:
 
-position: (Optional) Type: "top" | "bottom" | "left" | "right". Specifies the position of the tooltip. Default value is "top".
-width: (Optional) Type: number | "auto" | "xs" | "sm" | "lg" | "xl". Specifies the width of the tooltip. Default value is "auto".
+| Propiedades | Tipo | Comentario |
+| --- | --- | --- |
+| Position (Optional) | "top" | "bottom" | "left" | "right" | Especifica la posición de la información sobre herramientas. El valor predeterminado es "superior". |
+| width (Optional) | number | "auto" | "xs" | "sm" | "lg" | "xl" | Especifica el ancho de la información sobre herramientas. El valor predeterminado es "automático". |
 
 ## License
 
