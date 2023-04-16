@@ -1,0 +1,17 @@
+{
+  "name": "ngx-tooltify",
+  "version": "0.1.0",
+  "peerDependencies": {
+    "@angular/common": "^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0",
+    "@angular/core": "^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "author": {
+    "name": "Brayan Martinez",
+    "email": "Andres.brayan.m@gmail.com",
+    "url": "https://www.andrewbrayan.com/"
+  },
+  "sideEffects": false
+}

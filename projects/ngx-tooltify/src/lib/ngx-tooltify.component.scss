@@ -1,0 +1,100 @@
+::ng-deep .ngx-tooltify-container {
+  position: relative;
+
+  .ngx-tooltify {
+    position: absolute;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    line-height: 1em;
+    font-weight: normal;
+    color: #ffffff;
+    font-family: inherit;
+    background-color: #3b3b3b;
+    opacity: 0;
+    scale: 0;
+    transition: opacity 0.2s linear;
+
+    &::after {
+      content: " ";
+      position: absolute;
+      border-width: 0.4em;
+      border-style: solid;
+      border-color: transparent;
+    }
+
+    &--is-top {
+      top: 0;
+      left: 50%;
+      transform: translate(-50%, -100%);
+      &::after {
+        top: calc(100% - 1px);
+        left: 50%;
+        transform: translate(-50%, 0);
+        border-top-color: #3b3b3b;
+      }
+    }
+
+    &--is-bottom {
+      top: 100%;
+      left: 50%;
+      transform: translate(-50%, 0);
+      &::after {
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -100%);
+        border-bottom-color: #3b3b3b;
+      }
+    }
+
+    &--is-right {
+      top: 50%;
+      left: 100%;
+      transform: translate(15%, -50%);
+      &::after {
+        top: 50%;
+        left: 1px;
+        transform: translate(-100%, -50%);
+        border-right-color: #3b3b3b;
+      }
+    }
+
+    &--is-left {
+      top: 50%;
+      left: 0;
+      transform: translate(-115%, -50%);
+      &::after {
+        top: 50%;
+        left: calc(100% - 1px);
+        transform: translate(0, -50%);
+        border-left-color: #3b3b3b;
+      }
+    }
+
+    &--width-auto {
+      width: max-content;
+    }
+
+    &--width-xs {
+      width: min-content;
+    }
+
+    &--width-sm {
+      width: 10em;
+    }
+
+    &--width-lg {
+      width: 15em;
+    }
+
+    &--width-xl {
+      width: 20em;
+    }
+  }
+
+  &:hover {
+    .ngx-tooltify {
+      opacity: 1;
+      scale: 1;
+    }
+  }
+}
