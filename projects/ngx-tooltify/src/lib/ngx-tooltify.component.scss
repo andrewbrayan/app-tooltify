@@ -1,6 +1,4 @@
-::ng-deep .ngx-tooltify-container {
-  position: relative;
-
+.ngx-tooltify-container {
   .ngx-tooltify {
     position: absolute;
     border-radius: 0.5em;
@@ -8,7 +6,6 @@
     line-height: 1em;
     font-weight: normal;
     color: #ffffff;
-    font-family: inherit;
     background-color: #3b3b3b;
     opacity: 0;
     scale: 0;
