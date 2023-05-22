@@ -15,12 +15,16 @@ npm i ngx-tooltify
 Use the following example code to display the tooltip in your application:
 
 ```html
-<ngx-tooltify position="bottom" width="auto">
-  Tooltip Text
-</ngx-tooltify>
+<p>
+  Lorem ipsum dolor sit amet
+
+  <ngx-tooltify position="bottom" width="auto">
+    Tooltip Text
+  </ngx-tooltify>
+</p>
 ```
 
-Importa NgxTooltifyModule en el módulo donde desees utilizar la librería:
+Import NgxTooltifyModule into the module where you want to use the library:
 
 ```javascript
 import { NgxTooltifyModule } from 'ngx-tooltify';
